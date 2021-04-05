@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MarvelBabel_MOCK_MarvelBabelTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MarvelBabel_MOCK_MarvelBabelTestsVersionString[];
+FOUNDATION_EXPORT double Pods_MarvelBabelTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MarvelBabelTestsVersionString[];
 

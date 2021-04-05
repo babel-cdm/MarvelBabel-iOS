@@ -10,7 +10,6 @@
 		17AFD8B0DDC59D95BE93CE66 /* Pods_MarvelBabel_PRO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1526C628D1D267F7E93A3E32 /* Pods_MarvelBabel_PRO.framework */; };
 		18F62412BC6DFDE5A42E2257 /* Pods_MarvelBabel_MOCK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E5EB6CC2D22A37BAF59653 /* Pods_MarvelBabel_MOCK.framework */; };
 		222AB299BF26C032705A8BC5 /* Pods_DataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDA455FB2BE0BBD0863198E /* Pods_DataTests.framework */; };
-		502F82B71CBFA4E0139D2ECD /* Pods_MarvelBabel_MOCK_MarvelBabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A26BAB72855B0F22DDD2D7C /* Pods_MarvelBabel_MOCK_MarvelBabelTests.framework */; };
 		5FBA4F6055E20E3CCC0B8AB9 /* Pods_DomainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233C92C28596388006539D62 /* Pods_DomainTests.framework */; };
 		7936ABD52651FE8DFA87648B /* Pods_Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B23532FD074681236B9ECCB8 /* Pods_Data.framework */; };
 		B162EB3ECFB1D145F0DCD0B1 /* Pods_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBA35D09DFE7C69D7263956 /* Pods_Domain.framework */; };
@@ -36,9 +35,7 @@
 		BC80E3FB260B900100FB1987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC80E3FA260B900100FB1987 /* AppDelegate.swift */; };
 		BC80E404260B900200FB1987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC80E403260B900200FB1987 /* Assets.xcassets */; };
 		BC80E407260B900200FB1987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC80E405260B900200FB1987 /* LaunchScreen.storyboard */; };
-		BC80E412260B900200FB1987 /* MarvelBabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC80E411260B900200FB1987 /* MarvelBabelTests.swift */; };
 		BC80E455260B9E0A00FB1987 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC80E44C260B9E0A00FB1987 /* Domain.framework */; };
-		BC80E45C260B9E0A00FB1987 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC80E45B260B9E0A00FB1987 /* DomainTests.swift */; };
 		BC80E45E260B9E0A00FB1987 /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = BC80E44E260B9E0A00FB1987 /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC80E461260B9E0A00FB1987 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC80E44C260B9E0A00FB1987 /* Domain.framework */; };
 		BC80E462260B9E0A00FB1987 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC80E44C260B9E0A00FB1987 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -137,6 +134,23 @@
 		BC80E82A260CCF1E00FB1987 /* EncryptionDomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC80E829260CCF1E00FB1987 /* EncryptionDomainError.swift */; };
 		BC80E86B260CD2C000FB1987 /* CharacterListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC80E86A260CD2C000FB1987 /* CharacterListViewController.storyboard */; };
 		BC80E86C260CD2C000FB1987 /* CharacterListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC80E86A260CD2C000FB1987 /* CharacterListViewController.storyboard */; };
+		BCECF17826137AA700FC0442 /* MockedKeychainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF17726137AA700FC0442 /* MockedKeychainRepository.swift */; };
+		BCECF17F26137AEA00FC0442 /* MockedHttpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF17E26137AEA00FC0442 /* MockedHttpRepository.swift */; };
+		BCECF18726137C7A00FC0442 /* ImportCertificatesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF18626137C7A00FC0442 /* ImportCertificatesInteractorTests.swift */; };
+		BCECF19426137EA000FC0442 /* CertificateHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF19326137EA000FC0442 /* CertificateHelperTests.swift */; };
+		BCECF1A4261380EA00FC0442 /* *.marvel.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = BC80E608260C860500FB1987 /* *.marvel.com.cer */; };
+		BCECF1AC2613871900FC0442 /* MockedCertificateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1AB2613871900FC0442 /* MockedCertificateHelper.swift */; };
+		BCECF1B72613888700FC0442 /* MockedUserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1602613781B00FC0442 /* MockedUserDefaultsRepository.swift */; };
+		BCECF1C42613955900FC0442 /* MockedMainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1C32613955900FC0442 /* MockedMainWireframe.swift */; };
+		BCECF1D1261397B200FC0442 /* MockedGetCharacterDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1D0261397B200FC0442 /* MockedGetCharacterDetailInteractor.swift */; };
+		BCECF1E0261399CC00FC0442 /* MockedCharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1DF261399CC00FC0442 /* MockedCharacterDetailViewController.swift */; };
+		BCECF1EC26139BBD00FC0442 /* CharacterDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1EB26139BBD00FC0442 /* CharacterDetailPresenterTests.swift */; };
+		BCECF2F42613AF0400FC0442 /* MockedHttpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF17E26137AEA00FC0442 /* MockedHttpRepository.swift */; };
+		BCECF2FA2613AF0700FC0442 /* MockedKeychainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF17726137AA700FC0442 /* MockedKeychainRepository.swift */; };
+		BCECF3002613AF0A00FC0442 /* MockedUserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1602613781B00FC0442 /* MockedUserDefaultsRepository.swift */; };
+		BCECF3062613AF0F00FC0442 /* MockedGetCharacterDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1D0261397B200FC0442 /* MockedGetCharacterDetailInteractor.swift */; };
+		BCECF30C2613AF1600FC0442 /* MockedCertificateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCECF1AB2613871900FC0442 /* MockedCertificateHelper.swift */; };
+		DB3060AE5739C30B61C08AAC /* Pods_MarvelBabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E324A653E0C28D632C9143AF /* Pods_MarvelBabelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -265,13 +279,14 @@
 		32B120BC8AE68A17673B34FF /* Pods-MarvelBabel-MOCK-MarvelBabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelBabel-MOCK-MarvelBabelTests.debug.xcconfig"; path = "Target Support Files/Pods-MarvelBabel-MOCK-MarvelBabelTests/Pods-MarvelBabel-MOCK-MarvelBabelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		37539DC63C239D27E7D58FA0 /* Pods-Domain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domain.debug.xcconfig"; path = "Target Support Files/Pods-Domain/Pods-Domain.debug.xcconfig"; sourceTree = "<group>"; };
 		48B574F64AC8FD66439B52D6 /* Pods-MarvelBabel-MOCK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelBabel-MOCK.debug.xcconfig"; path = "Target Support Files/Pods-MarvelBabel-MOCK/Pods-MarvelBabel-MOCK.debug.xcconfig"; sourceTree = "<group>"; };
-		5A26BAB72855B0F22DDD2D7C /* Pods_MarvelBabel_MOCK_MarvelBabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelBabel_MOCK_MarvelBabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550230F86B489C1C0043144B /* Pods-MarvelBabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelBabelTests.debug.xcconfig"; path = "Target Support Files/Pods-MarvelBabelTests/Pods-MarvelBabelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65E5EB6CC2D22A37BAF59653 /* Pods_MarvelBabel_MOCK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelBabel_MOCK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E705C7B063892A81DEF4F /* Pods-DataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataTests.release.xcconfig"; path = "Target Support Files/Pods-DataTests/Pods-DataTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C54AE1BDAC58B153B683C48 /* Pods-Data.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.debug.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.debug.xcconfig"; sourceTree = "<group>"; };
 		8CBB55E244C9C279DCE417BF /* Pods-MarvelBabel-PRO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelBabel-PRO.debug.xcconfig"; path = "Target Support Files/Pods-MarvelBabel-PRO/Pods-MarvelBabel-PRO.debug.xcconfig"; sourceTree = "<group>"; };
 		8CDA455FB2BE0BBD0863198E /* Pods_DataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B9F3349F969599D5E1D75D /* Pods-Data.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data.release.xcconfig"; path = "Target Support Files/Pods-Data/Pods-Data.release.xcconfig"; sourceTree = "<group>"; };
+		A91077C1B0A7F8D09B743507 /* Pods-MarvelBabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelBabelTests.release.xcconfig"; path = "Target Support Files/Pods-MarvelBabelTests/Pods-MarvelBabelTests.release.xcconfig"; sourceTree = "<group>"; };
 		B23532FD074681236B9ECCB8 /* Pods_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC18634E260DE909008C1ABC /* RepositoryConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryConstants.swift; sourceTree = "<group>"; };
 		BC186358260DEBEA008C1ABC /* MarvelRequestDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelRequestDataModel.swift; sourceTree = "<group>"; };
@@ -291,13 +306,11 @@
 		BC80E406260B900200FB1987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC80E408260B900200FB1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC80E40D260B900200FB1987 /* MarvelBabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelBabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC80E411260B900200FB1987 /* MarvelBabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelBabelTests.swift; sourceTree = "<group>"; };
 		BC80E413260B900200FB1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC80E44C260B9E0A00FB1987 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC80E44E260B9E0A00FB1987 /* Domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 		BC80E44F260B9E0A00FB1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC80E454260B9E0A00FB1987 /* DomainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC80E45B260B9E0A00FB1987 /* DomainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTests.swift; sourceTree = "<group>"; };
 		BC80E45D260B9E0A00FB1987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC80E472260B9E1400FB1987 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC80E474260B9E1400FB1987 /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
@@ -362,7 +375,18 @@
 		BC80E822260CCEF500FB1987 /* EncryptionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionHelper.swift; sourceTree = "<group>"; };
 		BC80E829260CCF1E00FB1987 /* EncryptionDomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptionDomainError.swift; sourceTree = "<group>"; };
 		BC80E86A260CD2C000FB1987 /* CharacterListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CharacterListViewController.storyboard; sourceTree = "<group>"; };
+		BCECF1602613781B00FC0442 /* MockedUserDefaultsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedUserDefaultsRepository.swift; sourceTree = "<group>"; };
+		BCECF17726137AA700FC0442 /* MockedKeychainRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedKeychainRepository.swift; sourceTree = "<group>"; };
+		BCECF17E26137AEA00FC0442 /* MockedHttpRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedHttpRepository.swift; sourceTree = "<group>"; };
+		BCECF18626137C7A00FC0442 /* ImportCertificatesInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCertificatesInteractorTests.swift; sourceTree = "<group>"; };
+		BCECF19326137EA000FC0442 /* CertificateHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateHelperTests.swift; sourceTree = "<group>"; };
+		BCECF1AB2613871900FC0442 /* MockedCertificateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedCertificateHelper.swift; sourceTree = "<group>"; };
+		BCECF1C32613955900FC0442 /* MockedMainWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedMainWireframe.swift; sourceTree = "<group>"; };
+		BCECF1D0261397B200FC0442 /* MockedGetCharacterDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedGetCharacterDetailInteractor.swift; sourceTree = "<group>"; };
+		BCECF1DF261399CC00FC0442 /* MockedCharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedCharacterDetailViewController.swift; sourceTree = "<group>"; };
+		BCECF1EB26139BBD00FC0442 /* CharacterDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailPresenterTests.swift; sourceTree = "<group>"; };
 		C8702A58EF2555A163BE0C1D /* Pods-MarvelBabel-PRO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelBabel-PRO.release.xcconfig"; path = "Target Support Files/Pods-MarvelBabel-PRO/Pods-MarvelBabel-PRO.release.xcconfig"; sourceTree = "<group>"; };
+		E324A653E0C28D632C9143AF /* Pods_MarvelBabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelBabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1183F286E2EF2F5895EF3B /* Pods-DomainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomainTests.debug.xcconfig"; path = "Target Support Files/Pods-DomainTests/Pods-DomainTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -381,7 +405,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				502F82B71CBFA4E0139D2ECD /* Pods_MarvelBabel_MOCK_MarvelBabelTests.framework in Frameworks */,
+				DB3060AE5739C30B61C08AAC /* Pods_MarvelBabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,8 +464,8 @@
 				1BBA35D09DFE7C69D7263956 /* Pods_Domain.framework */,
 				233C92C28596388006539D62 /* Pods_DomainTests.framework */,
 				65E5EB6CC2D22A37BAF59653 /* Pods_MarvelBabel_MOCK.framework */,
-				5A26BAB72855B0F22DDD2D7C /* Pods_MarvelBabel_MOCK_MarvelBabelTests.framework */,
 				1526C628D1D267F7E93A3E32 /* Pods_MarvelBabel_PRO.framework */,
+				E324A653E0C28D632C9143AF /* Pods_MarvelBabelTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -463,6 +487,8 @@
 				2E95536133DAF2BB16EEB40A /* Pods-MarvelBabel-MOCK-MarvelBabelTests.release.xcconfig */,
 				8CBB55E244C9C279DCE417BF /* Pods-MarvelBabel-PRO.debug.xcconfig */,
 				C8702A58EF2555A163BE0C1D /* Pods-MarvelBabel-PRO.release.xcconfig */,
+				550230F86B489C1C0043144B /* Pods-MarvelBabelTests.debug.xcconfig */,
+				A91077C1B0A7F8D09B743507 /* Pods-MarvelBabelTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -540,7 +566,8 @@
 		BC80E410260B900200FB1987 /* MarvelBabelTests */ = {
 			isa = PBXGroup;
 			children = (
-				BC80E411260B900200FB1987 /* MarvelBabelTests.swift */,
+				BCECF1C22613954400FC0442 /* Routing */,
+				BCECF1DC2613998300FC0442 /* Modules */,
 				BC80E413260B900200FB1987 /* Info.plist */,
 			);
 			path = MarvelBabelTests;
@@ -577,7 +604,9 @@
 		BC80E45A260B9E0A00FB1987 /* DomainTests */ = {
 			isa = PBXGroup;
 			children = (
-				BC80E45B260B9E0A00FB1987 /* DomainTests.swift */,
+				BCECF19226137E8F00FC0442 /* Helper */,
+				BCECF18526137BB600FC0442 /* Interactors */,
+				BCECF15F261377FE00FC0442 /* Repository */,
 				BC80E45D260B9E0A00FB1987 /* Info.plist */,
 			);
 			path = DomainTests;
@@ -940,6 +969,91 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		BCECF15F261377FE00FC0442 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF16C2613781F00FC0442 /* Mocked */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		BCECF16C2613781F00FC0442 /* Mocked */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1602613781B00FC0442 /* MockedUserDefaultsRepository.swift */,
+				BCECF17726137AA700FC0442 /* MockedKeychainRepository.swift */,
+				BCECF17E26137AEA00FC0442 /* MockedHttpRepository.swift */,
+			);
+			path = Mocked;
+			sourceTree = "<group>";
+		};
+		BCECF18526137BB600FC0442 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1CF2613979800FC0442 /* Mocked */,
+				BCECF18626137C7A00FC0442 /* ImportCertificatesInteractorTests.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		BCECF19226137E8F00FC0442 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1AA2613870600FC0442 /* Mocked */,
+				BCECF19326137EA000FC0442 /* CertificateHelperTests.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BCECF1AA2613870600FC0442 /* Mocked */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1AB2613871900FC0442 /* MockedCertificateHelper.swift */,
+			);
+			path = Mocked;
+			sourceTree = "<group>";
+		};
+		BCECF1C22613954400FC0442 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1C32613955900FC0442 /* MockedMainWireframe.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		BCECF1CF2613979800FC0442 /* Mocked */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1D0261397B200FC0442 /* MockedGetCharacterDetailInteractor.swift */,
+			);
+			path = Mocked;
+			sourceTree = "<group>";
+		};
+		BCECF1DC2613998300FC0442 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1DD2613998D00FC0442 /* CharacterDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BCECF1DD2613998D00FC0442 /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1DE261399B700FC0442 /* Mocked */,
+				BCECF1EB26139BBD00FC0442 /* CharacterDetailPresenterTests.swift */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		BCECF1DE261399B700FC0442 /* Mocked */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF1DF261399CC00FC0442 /* MockedCharacterDetailViewController.swift */,
+			);
+			path = Mocked;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -993,7 +1107,6 @@
 				BC80E409260B900200FB1987 /* Sources */,
 				BC80E40A260B900200FB1987 /* Frameworks */,
 				BC80E40B260B900200FB1987 /* Resources */,
-				EB9A9BF88C9F2816F0015031 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1202,6 +1315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCECF1A4261380EA00FC0442 /* *.marvel.com.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1399,7 +1513,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MarvelBabel-MOCK-MarvelBabelTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MarvelBabelTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1464,23 +1578,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		EB9A9BF88C9F2816F0015031 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MarvelBabel-MOCK-MarvelBabelTests/Pods-MarvelBabel-MOCK-MarvelBabelTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MarvelBabel-MOCK-MarvelBabelTests/Pods-MarvelBabel-MOCK-MarvelBabelTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarvelBabel-MOCK-MarvelBabelTests/Pods-MarvelBabel-MOCK-MarvelBabelTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1523,7 +1620,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC80E412260B900200FB1987 /* MarvelBabelTests.swift in Sources */,
+				BCECF2F42613AF0400FC0442 /* MockedHttpRepository.swift in Sources */,
+				BCECF1C42613955900FC0442 /* MockedMainWireframe.swift in Sources */,
+				BCECF2FA2613AF0700FC0442 /* MockedKeychainRepository.swift in Sources */,
+				BCECF3062613AF0F00FC0442 /* MockedGetCharacterDetailInteractor.swift in Sources */,
+				BCECF1EC26139BBD00FC0442 /* CharacterDetailPresenterTests.swift in Sources */,
+				BCECF1E0261399CC00FC0442 /* MockedCharacterDetailViewController.swift in Sources */,
+				BCECF30C2613AF1600FC0442 /* MockedCertificateHelper.swift in Sources */,
+				BCECF3002613AF0A00FC0442 /* MockedUserDefaultsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1560,7 +1664,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC80E45C260B9E0A00FB1987 /* DomainTests.swift in Sources */,
+				BCECF17826137AA700FC0442 /* MockedKeychainRepository.swift in Sources */,
+				BCECF1AC2613871900FC0442 /* MockedCertificateHelper.swift in Sources */,
+				BCECF18726137C7A00FC0442 /* ImportCertificatesInteractorTests.swift in Sources */,
+				BCECF1D1261397B200FC0442 /* MockedGetCharacterDetailInteractor.swift in Sources */,
+				BCECF17F26137AEA00FC0442 /* MockedHttpRepository.swift in Sources */,
+				BCECF19426137EA000FC0442 /* CertificateHelperTests.swift in Sources */,
+				BCECF1B72613888700FC0442 /* MockedUserDefaultsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1866,13 +1976,12 @@
 		};
 		BC80E425260B900200FB1987 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32B120BC8AE68A17673B34FF /* Pods-MarvelBabel-MOCK-MarvelBabelTests.debug.xcconfig */;
+			baseConfigurationReference = 550230F86B489C1C0043144B /* Pods-MarvelBabelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89U47MB8F2;
 				INFOPLIST_FILE = MarvelBabelTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1888,13 +1997,12 @@
 		};
 		BC80E426260B900200FB1987 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E95536133DAF2BB16EEB40A /* Pods-MarvelBabel-MOCK-MarvelBabelTests.release.xcconfig */;
+			baseConfigurationReference = A91077C1B0A7F8D09B743507 /* Pods-MarvelBabelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89U47MB8F2;
 				INFOPLIST_FILE = MarvelBabelTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1925,7 +2033,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.Domain;
+				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.MarvelBabel.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -1954,7 +2062,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.Domain;
+				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.MarvelBabel.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -2024,7 +2132,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.Data;
+				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.MarvelBabel.Data;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -2053,7 +2161,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.Data;
+				PRODUCT_BUNDLE_IDENTIFIER = es.babel.marvel.MarvelBabel.Data;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;

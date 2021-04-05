@@ -14,9 +14,10 @@ end
 
 target 'MarvelBabel-MOCK' do
 	app_pods
-	target 'MarvelBabelTests' do
-    	test_pods
-    end
+  target 'MarvelBabelTests' do
+    inherit! :search_paths
+    test_pods
+  end
 end
 
 target 'MarvelBabel-PRO' do
