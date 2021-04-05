@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  MarvelBabel
+
+  Copyright © 2021 Babel SI. All rights reserved.
+  
+*/
+
+"Common.Accept" = "Accept";
+"Common.Cancel" = "Cancel";
+"Common.Retry" = "Retry";
+
+"Error.Title" = "¡Opppsss!";
+"Error.Message" = "An error has occurred. Please try again later.";
+
+"CharacterList.Title" = "Character List";
+"CharacterList.Header" = "Total characters: %@";
+"CharacterList.Cell.Description" = "Character ID: %@";
+
+"CharacterDetail.Identifier" = "Identifier:";
+"CharacterDetail.Description" = "Description:";
+"CharacterDetail.Comics" = "Number of comics:";
+"CharacterDetail.Series" = "Number of series:";
+"CharacterDetail.Stories" = "Number of stories:";
+"CharacterDetail.Button.Wiki" = "Go to Wiki";
